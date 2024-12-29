@@ -1,0 +1,335 @@
+/*Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: "Merriweather Sans", serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin: 150px 0;
+}
+
+.primary-color {
+    color: #F00;
+}
+
+/*Main Part Related CSS */
+main {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+/*New Year Greetings Related Style */
+.new-year-banner {
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Banner\ Image.png");
+    padding: 180px 345px;
+    background-size: cover;
+    text-align: center;
+}
+
+.new-year-banner .new-year-greeting {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.new-year-banner .new-year-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    /* 131.944% */
+}
+
+/*New Year Discount Related CSS */
+.new-year-discount {
+    text-align: center;
+}
+
+.new-year-discount-title {
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.new-year-discount-description {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.new-year-discount-category {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+/*New Year Mid Night Party Related CSS */
+.new-year-mid-night-party {
+    border-radius: 16px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Vector.png");
+    display: flex;
+    justify-content: space-between;
+    padding: 65px 135px;
+}
+
+.new-year-mid-night-party .mid-night-party-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    max-width: 640px;
+    margin-bottom: 15px;
+}
+
+.new-year-mid-night-party .mid-night-party-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin-bottom: 15px;
+}
+
+.new-year-mid-night-party .mid-night-party-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 0;
+    background: none;
+    margin-bottom: 15px;
+}
+
+.new-year-mid-night-party img {}
+
+/*New Year Party Location Related Style */
+.new-year-party-location {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.new-year-party-location .new-year-party-location-details {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
+}
+
+.new-year-party-location-btn {
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    border: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 64px;
+}
+
+/* New Year Best Offer Related CSS */
+.new-year-best-offer {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.new-year-best-offer-name {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.new-year-best-offer-title {
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.new-year-best-offer-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.new-year-best-offer-pic {
+    border: 5px solid red;
+    border-radius: 50%;
+}
+
+/*New Year Holiday Section Related CSS */
+.new-year-holiday-container {}
+
+.new-year-holiday-content {}
+
+.new-year-holiday-greeting {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.new-year-holiday-title {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.new-year-holiday-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+/* New Year Portfolio Section Related CSS */
+
+.new-year-portfolio-greetings {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.new-year-portfolio-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.new-year-portfolio-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 896px;
+}
+
+.portfolio-product-image-col {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/*New Year Subscribe Section Related CSS */
+.new-year-subscribe-container {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 210px;
+    text-align: center;
+}
+
+.new-year-subscribe-title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.new-year-subscribe-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+
+form {
+    margin: 0 auto;
+}
+
+form input[type="email"] {
+    padding: 25px 200px 25px 30px;
+    border-radius: 50px 0 0 50px;
+    border: 0;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+form input[type="submit"] {
+    padding: 24px 56px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+/*Footer Section Related CSS */
+.footer-container {
+    background-color: #070211;
+    padding: 120px 0;
+}
+
+.footer-content {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.footer-items {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.social-links {
+    text-align: center;
+    margin: 50px;
+}
+
+.social-links img {
+    max-width: 64px;
+    margin-right: 20px;
+}
