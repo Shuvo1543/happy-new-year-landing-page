@@ -299,6 +299,7 @@ form input[type="submit"] {
     font-weight: 600;
     text-transform: capitalize;
 }
+
 /*Footer Section Related CSS */
 .footer-container {
     background-color: #070211;
@@ -332,4 +333,194 @@ form input[type="submit"] {
 .social-links img {
     max-width: 64px;
     margin-right: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .new-year-discount img {
+        width: 90%;
+    }
+
+    .new-year-discount .new-year-discount-title {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+
+    .new-year-discount .new-year-discount-description {
+        font-size: 16px;
+    }
+
+    .new-year-discount .new-year-discount-category {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .portfolio-product-image-col {
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+
+    .new-year-portfolio-container {
+        padding: 20px;
+    }
+
+    .portfolio-product-image-col img {
+        margin-top: 10px;
+    }
+
+    .new-year-portfolio-title {
+        font-size: 30px;
+    }
+
+    .new-year-holiday-description {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .new-year-holiday-greeting {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+
+    .new-year-holiday-title {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    .new-year-best-offer,
+    .new-year-mid-night-party {
+        flex-direction: column;
+    }
+
+    .new-year-best-offer-col {
+        text-align: center;
+    }
+
+    .new-year-party-location .new-year-party-location-details {
+        font-size: 20px;
+    }
+
+    .new-year-party-location-btn {
+        margin-top: 10px;
+    }
+
+    .new-year-mid-night-party {
+        padding: 30px 15px;
+    }
+
+    .new-year-mid-night-party .mid-night-party-title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .new-year-mid-night-party img {
+        margin-top: 50px;
+    }
+
+
+    .new-year-subscribe-container {
+        padding: 10px;
+    }
+
+    .new-year-subscribe-container img {
+        width: 10%;
+    }
+
+    .new-year-subscribe-title {
+        font-size: 15px;
+    }
+
+    .new-year-subscribe-description {
+        font-size: 10px;
+        line-height: 12px;
+        padding:0px 30px;
+    }
+
+    form input[type="email"] {
+        padding: 15px 50px;
+        border-radius: 5px;
+        font-size: 10px;
+    }
+
+    form input[type="submit"] {
+        padding: 8px 16px;
+        border-radius: 5px;
+        display: block;
+        margin: 10px auto;
+        font-size:12px;
+    }
+    .banner-top{
+        margin-top:0;
+    }
+    .new-year-banner{
+        padding:20px;
+        border-radius: 0;
+    }
+    .new-year-banner .new-year-title{
+        line-height:64px;
+        font-size:66px;
+    }
+    .footer-container{
+        padding:20px 0;
+    }
+    .footer-row{
+        flex-direction: column;
+        padding:0px 20px;
+    }
+    .footer-items{
+        font-size:15px;
+    }
+    .footer-col{
+        text-align: center;
+    }
+    .social-links img{
+        width:7%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:577px) and (max-width: 992px) {
+    .new-year-discount img {
+        width: 90%;
+    }
+
+    .new-year-discount .new-year-discount-title {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+
+    .new-year-discount .new-year-discount-description {
+        font-size: 16px;
+    }
+
+    .new-year-discount .new-year-discount-category {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .portfolio-product-image-col {
+        flex-direction: column;
+    }
+
+    .portfolio-product-image-col img {
+        margin-top: 15px;
+    }
+
+    .new-year-portfolio-container {
+        padding: 40px;
+    }
 }
